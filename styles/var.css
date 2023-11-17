@@ -1,0 +1,128 @@
+.indexheader {
+  width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  background-image: url(../assets/images/proverbs.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: grid;
+  text-align: center;
+}
+
+.text {
+  font-family: "Yeseva One";
+  font-size: 3.125em;
+  text-align: center;
+  color: white;
+  line-height: 1.4;
+  margin: 0;
+  padding: 0%;
+}
+
+.wapper {
+  padding-top: 56px;
+  background-color: rgba(56, 50, 42, 0.775);
+}
+
+.indexheader__plus {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+}
+
+.indexheader__znaki {
+  font-size: 136px;
+  color: white;
+}
+
+.indexheader__gif {
+  width: 90%;
+  margin-top: auto;
+  padding-top: auto;
+  margin-bottom: 0%;
+  padding-bottom: 0;
+}
+
+.indexabout {
+  padding: 54px;
+  background-image: url(../assets/images/beb95faacb6c552be300a9855f7803f7.jpg);
+  text-align: center;
+}
+
+.text-about {
+  font-family: "Yeseva One";
+  font-size: 1.625em;
+  text-align: center;
+  color: rgb(8, 8, 8);
+  line-height: 1.4;
+  margin: 0;
+  padding: 0%;
+}
+
+.span {
+  color: rgb(150, 22, 19);
+}
+
+.indexabout__imgPortret {
+  width: 90%;
+  text-align: end;
+}
+
+.indexabout__imgKartina {
+  width: 90%;
+  text-align: center;
+  margin: auto;
+}
+
+.knopka {
+  justify-self: center;
+  margin: auto;
+}
+
+.proverka {
+  text-align: start;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 54px;
+}
+
+.text-header {
+  color: rgb(150, 22, 19);
+  text-align: start;
+}
+
+.text-proverka {
+  font-size: 1.625em;
+  text-align: start;
+  color: rgb(8, 8, 8);
+  padding: 20px;
+}
+
+.strela {
+  height: 26px;
+}
+
+@media (max-width: 650px) {
+  .text {
+    font-size: 2em;
+  }
+  .indexheader {
+    background-size: auto 100%;
+  }
+  .text-about {
+    font-size: 1em;
+  }
+  .knopka {
+    width: 90%;
+  }
+  .text-proverka {
+    font-size: 1.2em;
+  }
+  .proverka {
+    text-align: start;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}/*# sourceMappingURL=var.css.map */
